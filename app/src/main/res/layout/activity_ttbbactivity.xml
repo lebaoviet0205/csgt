@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".TTBBActivity">
+
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"/>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <AutoCompleteTextView
+            android:id="@+id/TextFind"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:hint="Tìm kiếm"
+            android:textColor="#2196F3"
+            android:textColorHint="#D1C08E" />
+
+        <ImageView
+            android:id="@+id/Btntimkiemttcd"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/search" />
+
+
+        <requestFocus />
+
+    </TableRow>
+
+
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*" />
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/lvProgram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+        <requestFocus />
+    </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+
+
+</LinearLayout>

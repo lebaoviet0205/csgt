@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/idBtnDetect3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBntSnap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttom_back"
+        android:text="Tìm theo BKS"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/blue" />
+
+    <ImageView
+        android:id="@+id/idTVCaptureImage"
+        android:layout_width="189dp"
+        android:layout_height="169dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/scan">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/idTVDetectText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTVCaptureImage"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Quét biển số xe"
+        android:textAlignment="center"
+        android:textColor="@color/Purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/idBntSnap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTVDetectText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttom_back"
+        android:text="Camera"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/blue" />
+
+    <Button
+        android:id="@+id/idBtnDetect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBntSnap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttom_back"
+        android:text="Quét"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/blue" />
+
+    <Button
+        android:id="@+id/idBtnmofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBntSnap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttom_back"
+        android:text="Mở thư viện ảnh"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/blue" />
+
+    <!--    <SearchView-->
+    <!--        android:id="@+id/svtimkiem"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" />-->
+    <EditText
+        android:id="@+id/TextFind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tìm kiếm"
+        android:textColor="#2196F3"
+        android:textColorHint="#D1C08E" />
+
+    <Button
+        android:id="@+id/idBtnDetect4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBntSnap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/buttom_back"
+        android:text="Lập Biên Bản"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/blue" />
+
+</RelativeLayout>

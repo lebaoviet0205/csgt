@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TTXE">
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#408080"
+        android:gravity="center"
+        android:text="THÔNG TIN BIÊN BẢN "
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+        <TableRow
+            android:id="@+id/tableRowl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã Cán Bộ:"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biển số :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số định danh :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên chủ xe :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phường :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Huyện :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tỉnh :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quốc Gia :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowl9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên lỗi :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mức phạt :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRowl12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã Biên Bản:"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày lập:"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+
+        </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRowl14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nội dung vi phạm:"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/t14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:text="tv1234" />
+        <requestFocus />
+    </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>

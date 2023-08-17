@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TTXE">
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#408080"
+        android:gravity="center"
+        android:text="THÔNG TIN GIẤY TỜ XE "
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+        <TableRow
+            android:id="@+id/tableRowl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tìm kiếm :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biển số :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SeriNo :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên chủ xe :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hãng xe :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loại xe :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Màu xe :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowl9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EngineNo :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ChassisNo :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DateStart :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID:"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowl13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái :"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/t13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:text="tv1234" />
+            <requestFocus />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnLBB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/Purple"
+        android:text="Lập Biên Bản"
+        android:textColor="#ffffff"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>

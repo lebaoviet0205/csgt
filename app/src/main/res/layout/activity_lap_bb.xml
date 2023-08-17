@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LapBB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#408080"
+        android:gravity="center"
+        android:text="Nội dung"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tại :"
+                android:textColor="#000000" />
+            <EditText
+                android:id="@+id/txtNoiViPham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:gravity="left"
+                android:hint="nơi vi phạm "/>
+
+
+
+            <requestFocus />
+
+        </TableRow>
+    </TableLayout>-->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số CCCD :"
+                android:textColor="#000000" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txtcccd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </AutoCompleteTextView>
+
+            <ImageView
+                android:id="@+id/scanButton"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/scan" />
+
+
+
+            <requestFocus />
+
+        </TableRow>
+    </TableLayout>-->
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quốc Gia:"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+            <Spinner
+                android:id="@+id/spinnerQuocGia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tỉnh/Thành phố :"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerThanhPho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quận/Huyện :"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerQuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phường/Xã :"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerPhuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <requestFocus />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lỗi vi phạm:"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+            <AutoCompleteTextView
+                android:id="@+id/aucompleLoiVP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </AutoCompleteTextView>
+            <requestFocus />
+
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nội dung vi phạm :"
+                android:textColor="#000000" />
+            <EditText
+                android:id="@+id/txtNoiDungVP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:gravity="left"
+                android:hint="nội dung vi phạm" />
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#408080"
+        android:gravity="center"
+        android:text="Xử lý"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:backgroundTint="#408080" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="Tạm giữ và ý kiến:"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtYKien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="89dp">
+
+            <Button
+                android:id="@+id/LuuBB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/buttom_back"
+                android:text="Lưu Biên Bản"
+                android:textColor="#ffffff"
+                app:backgroundTint="@color/Purple" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnGuiBB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttom_back"
+        android:text="Gửi BB"
+        android:textColor="#ffffff"
+        app:backgroundTint="@color/Purple" />
+
+
+</LinearLayout>
